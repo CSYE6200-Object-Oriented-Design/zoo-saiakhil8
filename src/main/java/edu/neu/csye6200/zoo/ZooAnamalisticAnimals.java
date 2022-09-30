@@ -13,6 +13,8 @@ public class ZooAnamalisticAnimals extends ZooApi<AnimalisticAPI> {
         stringBuilder.append("=== Size of Animals in this Zoo = ").append(this.getAnimalsSize()).append("===\n");
         stringBuilder.append("===Listing and calling speak for all the animals in ZooAnamalisticAnimals(AnimalisticAPI)===").append("\n");
         this.getAnimals().forEach(animalisticAPI -> {
+            //Here we are demonstrating run-time polymorphism
+            // speak is overridden in all derived class
             stringBuilder.append(animalisticAPI.speak()).append("\n");
         });
         stringBuilder.append("===Listing of ZooAnamalisticAnimals done===\n");
