@@ -8,7 +8,7 @@ import java.util.List;
  */
 public abstract class ZooApi<T> {
 
-    private List<T> animals;
+    private final List<T> animals;
 
     {
         this.animals = new ArrayList<>();
