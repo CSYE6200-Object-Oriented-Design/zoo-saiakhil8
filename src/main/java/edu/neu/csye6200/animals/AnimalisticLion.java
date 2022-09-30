@@ -7,7 +7,7 @@ import edu.neu.csye6200.api.AnimalisticAPI;
  */
 public class AnimalisticLion implements AnimalisticAPI {
     @Override
-    public String speak() {
+    public String animalisticSpeak() {
         return "Iam a Lion derived from AnimalisticAPI";
     }
     @Override

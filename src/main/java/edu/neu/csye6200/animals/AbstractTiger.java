@@ -7,7 +7,7 @@ import edu.neu.csye6200.api.AbstractAnimalAPI;
  */
 public class AbstractTiger extends AbstractAnimalAPI {
     @Override
-    public String speak() {
+    public String abstractSpeak() {
         return "Iam a Tiger derived from AbstractAnimalAPI";
     }
     @Override
